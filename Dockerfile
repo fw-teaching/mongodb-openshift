@@ -17,4 +17,4 @@ RUN mkdir -p $MONGO_DATA_DIR
 EXPOSE 27017
 
 # Run MongoDB
-CMD ["mongod"]
+CMD ["mongod" "--auth"]
